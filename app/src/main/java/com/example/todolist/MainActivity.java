@@ -3,6 +3,7 @@ package com.example.todolist;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,8 +12,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         fredy();
-
+        jeffrey();
         //Hello From Freddy
+    }
+
+    private void jeffrey(){
 
     }
 
