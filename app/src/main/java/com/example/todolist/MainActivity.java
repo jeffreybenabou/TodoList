@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         fredy();
+        arielEdri();
         jeffrey();
         //Hello From Freddy
     }
@@ -22,5 +23,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void fredy(){
 
+
+    }
+
+    private void arielEdri(){
+        Toast.makeText(this,"ariel",Toast.LENGTH_LONG).show();
     }
 }
